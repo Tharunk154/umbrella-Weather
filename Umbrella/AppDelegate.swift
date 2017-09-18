@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Umbrella
 //
-//  Created by Kumar, Sravan on 16/09/17.
+//  Created by Tharun K on 17/09/17.
 //  Copyright © 2017 Tharun K. All rights reserved.
 //
 

@@ -12,6 +12,15 @@
 		885F30E91F6CFAE400DE704A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885F30E71F6CFAE400DE704A /* Main.storyboard */; };
 		885F30EB1F6CFAE400DE704A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885F30EA1F6CFAE400DE704A /* Assets.xcassets */; };
 		885F30EE1F6CFAE400DE704A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885F30EC1F6CFAE400DE704A /* LaunchScreen.storyboard */; };
+		885F30F91F6CFC4F00DE704A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F30F81F6CFC4F00DE704A /* NetworkManager.swift */; };
+		885F30FC1F6D026400DE704A /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F30FB1F6D026400DE704A /* HelperMethods.swift */; };
+		885F30FF1F6D1E9C00DE704A /* PinCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F30FE1F6D1E9C00DE704A /* PinCodeViewController.swift */; };
+		887C20A01F6E223B00E52A0A /* HourlyWeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C209F1F6E223B00E52A0A /* HourlyWeatherController.swift */; };
+		887C20A21F6E312300E52A0A /* HourlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C20A11F6E312300E52A0A /* HourlyModel.swift */; };
+		887C20A51F6E6B3D00E52A0A /* HourlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C20A31F6E6B3D00E52A0A /* HourlyTableViewCell.swift */; };
+		887C20A61F6E6B3D00E52A0A /* HourlyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887C20A41F6E6B3D00E52A0A /* HourlyTableViewCell.xib */; };
+		887C20A91F6E76BF00E52A0A /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C20A71F6E76BF00E52A0A /* HourlyCollectionViewCell.swift */; };
+		887C20AA1F6E76BF00E52A0A /* HourlyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887C20A81F6E76BF00E52A0A /* HourlyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		885F30EA1F6CFAE400DE704A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885F30ED1F6CFAE400DE704A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		885F30EF1F6CFAE400DE704A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885F30F81F6CFC4F00DE704A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = NetworkLayer/NetworkManager.swift; sourceTree = "<group>"; };
+		885F30FB1F6D026400DE704A /* HelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelperMethods.swift; path = BusinessLogic/HelperMethods.swift; sourceTree = "<group>"; };
+		885F30FE1F6D1E9C00DE704A /* PinCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinCodeViewController.swift; path = ViewControllers/PinCodeViewController.swift; sourceTree = "<group>"; };
+		887C209F1F6E223B00E52A0A /* HourlyWeatherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourlyWeatherController.swift; path = ViewControllers/HourlyWeatherController.swift; sourceTree = "<group>"; };
+		887C20A11F6E312300E52A0A /* HourlyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourlyModel.swift; path = ModelObjects/HourlyModel.swift; sourceTree = "<group>"; };
+		887C20A31F6E6B3D00E52A0A /* HourlyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourlyTableViewCell.swift; path = CustomViews/HourlyTableViewCell.swift; sourceTree = "<group>"; };
+		887C20A41F6E6B3D00E52A0A /* HourlyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HourlyTableViewCell.xib; path = CustomViews/HourlyTableViewCell.xib; sourceTree = "<group>"; };
+		887C20A71F6E76BF00E52A0A /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourlyCollectionViewCell.swift; path = CustomViews/HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		887C20A81F6E76BF00E52A0A /* HourlyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HourlyCollectionViewCell.xib; path = CustomViews/HourlyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,61 @@
 			children = (
 				885F30E31F6CFAE400DE704A /* AppDelegate.swift */,
 				885F30E51F6CFAE400DE704A /* ViewController.swift */,
+				885F30FD1F6D1E7E00DE704A /* ViewControllers */,
+				885F30FA1F6D025000DE704A /* BusinessLogic */,
+				885F30F71F6CFC1000DE704A /* CustomViews */,
+				885F30F61F6CFB7800DE704A /* NetworkLayer */,
+				885F30F51F6CFB6300DE704A /* ModelObjects */,
 				885F30E71F6CFAE400DE704A /* Main.storyboard */,
 				885F30EA1F6CFAE400DE704A /* Assets.xcassets */,
 				885F30EC1F6CFAE400DE704A /* LaunchScreen.storyboard */,
 				885F30EF1F6CFAE400DE704A /* Info.plist */,
 			);
 			path = Umbrella;
+			sourceTree = "<group>";
+		};
+		885F30F51F6CFB6300DE704A /* ModelObjects */ = {
+			isa = PBXGroup;
+			children = (
+				887C20A11F6E312300E52A0A /* HourlyModel.swift */,
+			);
+			name = ModelObjects;
+			sourceTree = "<group>";
+		};
+		885F30F61F6CFB7800DE704A /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				885F30F81F6CFC4F00DE704A /* NetworkManager.swift */,
+			);
+			name = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		885F30F71F6CFC1000DE704A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				887C20A31F6E6B3D00E52A0A /* HourlyTableViewCell.swift */,
+				887C20A41F6E6B3D00E52A0A /* HourlyTableViewCell.xib */,
+				887C20A71F6E76BF00E52A0A /* HourlyCollectionViewCell.swift */,
+				887C20A81F6E76BF00E52A0A /* HourlyCollectionViewCell.xib */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		885F30FA1F6D025000DE704A /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				885F30FB1F6D026400DE704A /* HelperMethods.swift */,
+			);
+			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		885F30FD1F6D1E7E00DE704A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				885F30FE1F6D1E9C00DE704A /* PinCodeViewController.swift */,
+				887C209F1F6E223B00E52A0A /* HourlyWeatherController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +193,9 @@
 			files = (
 				885F30EE1F6CFAE400DE704A /* LaunchScreen.storyboard in Resources */,
 				885F30EB1F6CFAE400DE704A /* Assets.xcassets in Resources */,
+				887C20A61F6E6B3D00E52A0A /* HourlyTableViewCell.xib in Resources */,
 				885F30E91F6CFAE400DE704A /* Main.storyboard in Resources */,
+				887C20AA1F6E76BF00E52A0A /* HourlyCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +206,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885F30F91F6CFC4F00DE704A /* NetworkManager.swift in Sources */,
+				887C20A01F6E223B00E52A0A /* HourlyWeatherController.swift in Sources */,
+				887C20A91F6E76BF00E52A0A /* HourlyCollectionViewCell.swift in Sources */,
+				887C20A51F6E6B3D00E52A0A /* HourlyTableViewCell.swift in Sources */,
+				887C20A21F6E312300E52A0A /* HourlyModel.swift in Sources */,
 				885F30E61F6CFAE400DE704A /* ViewController.swift in Sources */,
+				885F30FC1F6D026400DE704A /* HelperMethods.swift in Sources */,
+				885F30FF1F6D1E9C00DE704A /* PinCodeViewController.swift in Sources */,
 				885F30E41F6CFAE400DE704A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +380,7 @@
 				885F30F41F6CFAE400DE704A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
